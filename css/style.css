@@ -1,218 +1,74 @@
-/* im try to use this but it didn't wotk */
 
-/* @media only screen and (max-width: 960px) and (min-width: 768px){ */
-/* header{
-    position: absolute;
-    left: 0%;
-    top: 0%;
-}
-body{
-    position: absolute;
-    left: 8%;
-    top: 20%;
-    right: 10%;
-}
-#c{
-    position: absolute;
-    left: 200px;
-    top: 100px;
-
-}
-/* .sec1{
-    position: absolute;
-    left: 200px;
-    top: 100px;
-} */
-/* #d{
-    position: absolute;
-    left: 580px;
-    top: 100px;
-
-}
-
-#e{
-    position: absolute;
-    left: 200px;
-    top: 300px;
-}
-#f{
-    position: absolute;
-    left: 390px;
-    top: 300px;
-}#g{
-    position: absolute;
-    left: 580px;
-    top: 300px;
-}#h{
-    position: absolute;
-    left: 770px;
-    top: 300px;
-}
-#b{
-    position: absolute;
-    left: 0%;
-    top: 100px;
-}
-#i{
-    position: absolute;
-    left: 200px;
-    top: 550px;
-}  */
-/* } */
-
+ 
 
 body{
-    position: absolute;
-    width:  960px;
-    height: 768px;
-} 
-.a{
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    width: 960px;
-    height: 100px;
-    background-color: rgba(128, 128, 128, 0.479);
-    
-}
-.b{
-    position: absolute;
-    left: 0%;
-    top: 100px;
-    width: 200px;
-    height: 600px;
-    background-color: rgba(128, 128, 128, 0.479);
-    
-}
-.c{
-    position: absolute;
-    background-color: rgba(128, 128, 128, 0.479);
-    left: 200px;
-    top: 100px;
-    width: 380px;
-    height: 200px;
-    
-}
-
- .d{
-    position: absolute;
-    left: 580px;
-    top: 100px;
-    width: 380px;
-    height: 200px;
-    
-    background-color: rgba(128, 128, 128, 0.479);
-    
-    
-}
-
-.e{
-    position: absolute;
-    left: 200px;
-    top: 300px;
-    height: 250px;
-    width: 190px;
-    background-color: rgba(128, 128, 128, 0.534);
-    
-}
-.f{
-    position: absolute;
-    left: 390px;
-    top: 300px;
-    height: 250px;
-    width: 190px;
-    background-color: rgba(128, 128, 128, 0.479);
-    
-}.g{
-    position: absolute;
-    left: 580px;
-    top: 300px;
-    height: 250px;
-    width: 190px;
-    background-color: rgba(128, 128, 128, 0.479);
-    
-}.h{
-    position: absolute;
-    left: 770px;
-    top: 300px;
-    height: 250px;
-    width: 190px;
-    background-color: rgba(128, 128, 128, 0.479);
-    
-}
-
-.i{
-    position: absolute;
-    left: 200px;
-    top: 550px;
-    height: 150px;
-    width: 760px;
-    background-color: rgba(128, 128, 128, 0.479);
-    
-} 
-
-@media (max-width: 480px) {
-
-    body{
         position: absolute;
         width: 480px;
         height: 767px;
     } 
     .a{
-       
+        
         position: absolute;
         left: 0%;
         top: 0%;
         width: 480px;
         height: 75px;
         line-height: 75px;
-
-        background-color: rgba(128, 128, 128, 0.479);
+        
+        background-color: rgba(88, 121, 11, 0.479);
         
     }
+    #sec1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .b{
+        
         position: absolute;
         left: 0%;
         top: 75px;
         width: 480px;
         height: 150px;
-        background-color: rgba(128, 128, 128, 0.479);
+        background-color: rgba(90, 6, 6, 0.479);
         line-height: 150px;
-
+        
         
     }
     .c{
         position: absolute;
-        background-color: rgba(128, 128, 128, 0.479);
+        background-color: rgba(40, 9, 126, 0.479);
         left: 0px;
         top: 225px;
         width: 480px;
         height: 125px;
     }
-    /* .sec1{
+     .sec1{
         position: absolute;
         left: 200px;
         top: 100px;
-    } */
-    .d{
+    } 
+     .d{
         position: absolute;
         left: 0px;
         top: 350px;
         width: 480px;
         height: 125px;
         
-        background-color: rgba(128, 128, 128, 0.479);
+        background-color: rgba(39, 155, 11, 0.479);
         
         
     }
-    
+    #sec2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .e{
         position: absolute;
         left: 0px;
         top: 475px;
         height: 250px;
         width: 240px;
-        background-color: rgba(128, 128, 128, 0.534);
+        background-color: rgba(146, 21, 79, 0.534);
         
     }
     .f{
@@ -221,7 +77,7 @@ body{
         top: 475px;
         height: 250px;
         width: 240px;
-        background-color: rgba(128, 128, 128, 0.479);
+        background-color: rgba(11, 91, 116, 0.479);
         
     }.g{
         position: absolute;
@@ -229,7 +85,7 @@ body{
         top: 725px;
         height: 250px;
         width: 240px;
-        background-color: rgba(128, 128, 128, 0.479);
+        background-color: rgba(5, 252, 66, 0.479);
         
     }.h{
         position: absolute;
@@ -237,7 +93,7 @@ body{
         top: 725px;
         height: 250px;
         width: 240px;
-        background-color: rgba(128, 128, 128, 0.479);
+        background-color: rgba(5, 57, 61, 0.479);
         
     }
     
@@ -247,8 +103,109 @@ body{
         top: 975px;
         height: 80px;
         width: 480px;
-        background-color: rgba(128, 128, 128, 0.479);
-        
+        background-color: rgba(143, 70, 70, 0.479);
     }
-      
-}
+            
+            @media(min-width: 768px) {
+                body{
+                    position: absolute;
+                    width:  960px;
+                    height: 768px;
+                } 
+                .a{
+                    position: absolute;
+                    left: 0%;
+                    top: 0%;
+                    width: 960px;
+                    height: 100px;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                }
+                .b{
+                    position: absolute;
+                    left: 0%;
+                    top: 100px;
+                    width: 200px;
+                    height: 600px;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                }
+                .c{
+                    position: absolute;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    left: 200px;
+                    top: 100px;
+                    width: 380px;
+                    height: 200px;
+                    
+                }
+                
+                .d{
+                    position: absolute;
+                    left: 580px;
+                    top: 100px;
+                    width: 380px;
+                    height: 200px;
+                    
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                    
+                }
+                
+                .e{
+                    position: absolute;
+                    left: 200px;
+                    top: 300px;
+                    height: 250px;
+                    width: 190px;
+                    background-color: rgba(128, 128, 128, 0.534);
+                    
+                }
+                .f{
+                    position: absolute;
+                    left: 390px;
+                    top: 300px;
+                    height: 250px;
+                    width: 190px;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                }.g{
+                    position: absolute;
+                    left: 580px;
+                    top: 300px;
+                    height: 250px;
+                    width: 190px;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                }.h{
+                    position: absolute;
+                    left: 770px;
+                    top: 300px;
+                    height: 250px;
+                    width: 190px;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                }
+                
+                .i{
+                    position: absolute;
+                    left: 200px;
+                    top: 550px;
+                    height: 150px;
+                    width: 760px;
+                    background-color: rgba(128, 128, 128, 0.479);
+                    
+                } 
+            }
+            
+            @media(min-width: 960px) {
+                div {
+                    background-color: rgba(63, 63, 60, 0.541);
+                }
+            }
+
+    
+   
+ 
+
+ 

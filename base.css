@@ -1,0 +1,11 @@
+
+        @media (min-width: 960px) {
+            .continer{
+                width: 960px;
+            }
+        }
+        @media (min-width: 767px) {
+            .continer{
+                width: 960px;
+            }
+        }
