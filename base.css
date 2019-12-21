@@ -9,3 +9,8 @@
                 width: 960px;
             }
         }
+        @media (min-width: 880px){
+            .continer{
+                width: 960px;
+            }  
+        }
