@@ -14,3 +14,12 @@
                 width: 960px;
             }  
         }
+        body{
+            /* position: absolute;
+            width: 480px;
+            height: 767px; */
+            display: grid;
+            /* grid-template-columns: auto auto auto; */
+            background-color: rgb(167, 178, 187);
+            /* padding: 10px; */
+        } 

@@ -1,0 +1,155 @@
+
+ .a{
+ 
+    
+    background-color: rgba(88, 121, 11, 0.479);
+    
+}
+.b{
+    background-color: rgba(90, 6, 6, 0.479);
+}
+.c{
+    background-color: rgba(40, 9, 126, 0.479);
+}
+.d{
+   
+    background-color: rgba(39, 155, 11, 0.479);
+    
+    
+}
+.e{
+    background-color: rgba(146, 21, 79, 0.534);
+    
+}
+.f{
+    background-color: rgba(11, 91, 116, 0.479);
+    
+}.g{
+  
+    background-color: rgba(5, 252, 66, 0.479);
+    
+}.h{
+   
+    background-color: rgba(5, 57, 61, 0.479);
+    
+}
+
+.i{
+   
+    background-color: rgba(143, 70, 70, 0.479);
+}
+@media(min-width: 768px) {
+    body{
+        /* position: absolute;
+        width:  960px;
+        height: 768px; */
+        display: grid;
+
+    } 
+    .a{
+        
+        background-color: rgba(13, 230, 49, 0.479);
+        
+    }
+    .b{
+        
+        background-color: rgba(49, 175, 11, 0.479);
+        
+    }
+    .c{
+        background-color: rgba(14, 66, 27, 0.479);
+     
+        
+    }
+    
+    .d{
+     
+        
+        background-color: rgba(5, 43, 11, 0.479);
+        
+        
+    }
+    
+    .e{
+        
+        background-color: rgba(15, 129, 66, 0.534);
+        
+    }
+    .f{
+       
+        background-color: rgba(20, 92, 13, 0.479);
+        
+    }.g{
+        
+        background-color: rgba(13, 124, 22, 0.479);
+        
+    }.h{
+      
+        background-color: rgba(13, 136, 68, 0.479);
+        
+    }
+    
+    .i{
+        
+        background-color: rgba(27, 160, 67, 0.479);
+        
+    } 
+}
+ 
+@media (min-width: 880px){
+    
+    .a{
+        
+        background-color: rgba(126, 17, 17, 0.479);
+        
+    }
+    .b{
+       
+        background-color: rgba(211, 46, 46, 0.479);
+        
+    }
+    .c{
+        background-color: rgba(136, 70, 70, 0.479);
+       
+        
+    }
+    
+    .d{
+       
+        
+        background-color: rgba(218, 17, 17, 0.479);
+        
+        
+    }
+    
+    .e{
+        
+        background-color: rgba(29, 7, 7, 0.534);
+        
+    }
+    .f{
+        
+        background-color: rgba(196, 71, 71, 0.479);
+        
+    }.g{
+      
+        background-color: rgba(187, 9, 9, 0.479);
+        
+    }.h{
+        
+        background-color: rgba(83, 3, 3, 0.479);
+        
+    }
+    
+    .i{
+        
+        background-color: rgba(131, 70, 70, 0.479);
+        
+    } 
+}
+@media(min-width: 960px) {
+    div {
+        background-color: rgba(114, 114, 87, 0.541);
+    }
+}
+        
