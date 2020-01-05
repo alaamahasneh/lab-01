@@ -12,6 +12,8 @@
 #sec1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto;
+
 }
 .b{
         
@@ -33,6 +35,8 @@
 }
 
 .sec1{
+    display: grid;
+    grid-template-columns: auto auto;
     position: absolute;
     left: 200px;
     top: 100px;
@@ -48,6 +52,8 @@
 #sec2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto auto;
+
 }
 .e{
     position: absolute;
