@@ -1,0 +1,266 @@
+.a{
+        
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    
+    
+}
+#sec1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto;
+
+}
+.b{
+        
+    position: absolute;
+    left: 0%;
+    top: 75px;
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    
+    
+}
+.c{
+    position: absolute;
+    left: 0px;
+    top: 225px;
+    width: 480px;
+    height: 125px;
+}
+
+.sec1{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+} 
+.d{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    width: 480px;
+    height: 125px; 
+    
+}
+#sec2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto auto;
+
+}
+.e{
+    position: absolute;
+    left: 0px;
+    top: 475px;
+    height: 250px;
+    width: 240px;
+    
+}
+.f{
+    position: absolute;
+    left: 240px;
+    top: 475px;
+    height: 250px;
+    width: 240px;
+    
+}.g{
+    position: absolute;
+    left: 0px;
+    top: 725px;
+    height: 250px;
+    width: 240px;
+    
+}.h{
+    position: absolute;
+    left: 240px;
+    top: 725px;
+    height: 250px;
+    width: 240px;
+    
+}
+
+.i{
+    position: absolute;
+    left: 0px;
+    top: 975px;
+    height: 80px;
+    width: 480px;
+}
+@media(min-width: 768px) {
+    body{
+        /* position: absolute;
+        width:  960px;
+        height: 768px; */
+        display: grid;
+
+    } 
+    .a{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        width: 960px;
+        height: 100px;
+        
+    }
+    .b{
+        position: absolute;
+        left: 0%;
+        top: 100px;
+        width: 200px;
+        height: 600px;
+        
+    }
+    .c{
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        width: 380px;
+        height: 200px;
+        
+    }
+    
+    .d{
+        position: absolute;
+        left: 580px;
+        top: 100px;
+        width: 380px;
+        height: 200px;
+        
+        
+        
+    }
+    
+    .e{
+        position: absolute;
+        left: 200px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }
+    .f{
+        position: absolute;
+        left: 390px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }.g{
+        position: absolute;
+        left: 580px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }.h{
+        position: absolute;
+        left: 770px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }
+    
+    .i{
+        position: absolute;
+        left: 200px;
+        top: 550px;
+        height: 150px;
+        width: 760px;
+        
+    } 
+}
+ 
+@media (min-width: 880px){
+    body{
+        /* position: absolute;
+        width:  960px;
+        height: 768px; */
+        display: grid;
+
+    } 
+    .a{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        width: 960px;
+        height: 100px;
+        
+    }
+    .b{
+        position: absolute;
+        left: 0%;
+        top: 100px;
+        width: 200px;
+        height: 600px;
+        
+    }
+    .c{
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        width: 380px;
+        height: 200px;
+        
+    }
+    
+    .d{
+        position: absolute;
+        left: 580px;
+        top: 100px;
+        width: 380px;
+        height: 200px;
+        
+        
+        
+    }
+    
+    .e{
+        position: absolute;
+        left: 200px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }
+    .f{
+        position: absolute;
+        left: 390px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }.g{
+        position: absolute;
+        left: 580px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }.h{
+        position: absolute;
+        left: 770px;
+        top: 300px;
+        height: 250px;
+        width: 190px;
+        
+    }
+    
+    .i{
+        position: absolute;
+        left: 200px;
+        top: 550px;
+        height: 150px;
+        width: 760px;
+        
+    } 
+}
+
+        
